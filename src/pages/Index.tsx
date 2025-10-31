@@ -13,9 +13,19 @@ const Index = () => {
     message: ''
   });
 
+  const [showForm, setShowForm] = useState(false);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
+  };
+
+  const scrollToForm = () => {
+    const formSection = document.getElementById('contact');
+    if (formSection) {
+      formSection.scrollIntoView({ behavior: 'smooth' });
+      setShowForm(true);
+    }
   };
 
   const stats = [
@@ -111,7 +121,7 @@ const Index = () => {
             <h1 className="text-5xl md:text-7xl font-heading mb-6 bg-gradient-to-r from-primary via-blue-500 to-accent bg-clip-text text-transparent font-semibold">От замысла до воплощения — профессионально</h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">ООО «СМАРТ-Девелопмент» — часть стабильной группы предприятий, которая успешно работает с 1997 года</p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8" onClick={scrollToForm}>
                 <Icon name="FileText" className="mr-2" size={20} />
                 Оставить заявку
               </Button>
