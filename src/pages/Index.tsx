@@ -378,7 +378,7 @@ const Index = () => {
                   <Icon name="Mail" className="text-white" size={24} />
                 </div>
                 <h3 className="font-semibold mb-1">Email</h3>
-                <p className="text-sm text-muted-foreground">info@smart-dev.ru</p>
+                <p className="text-sm text-muted-foreground">office@smrtdevelopment.ru</p>
               </Card>
               <Card className="p-6 text-center bg-card/50 border-white/20">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto mb-3">
