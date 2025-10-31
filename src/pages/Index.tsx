@@ -198,10 +198,7 @@ const Index = () => {
               Современная девелоперская компания с 27-летним опытом. Реализуем проекты в срок и с безупречным качеством
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8" onClick={scrollToForm}>
-                <Icon name="FileText" className="mr-2" size={20} />
-                Оставить заявку
-              </Button>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8" onClick={scrollToForm}>Связаться с нами</Button>
               <Button size="lg" variant="outline" className="text-lg px-8 border-2" onClick={scrollToProjects}>
                 <Icon name="Building2" className="mr-2" size={20} />
                 Наши проекты
