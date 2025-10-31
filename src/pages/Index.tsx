@@ -385,7 +385,7 @@ const Index = () => {
                   <Icon name="Phone" className="text-white" size={24} />
                 </div>
                 <h3 className="font-semibold mb-1">Телефон</h3>
-                <p className="text-sm text-muted-foreground">+7 (495) 000-00-00</p>
+                <p className="text-sm text-muted-foreground"></p>
               </Card>
               <Card className="p-6 text-center bg-card/50 border-white/20">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto mb-3">
