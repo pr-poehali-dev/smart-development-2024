@@ -375,58 +375,7 @@ const Index = () => {
               Контакты
             </h2>
             
-            <Card className="p-8 bg-card/50 backdrop-blur-sm border-white/20">
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label className="block text-sm font-medium mb-2">Имя *</label>
-                  <Input
-                    required
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    placeholder="Ваше имя"
-                    className="bg-background/50"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2">Email *</label>
-                  <Input
-                    required
-                    type="email"
-                    value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    placeholder="your@email.com"
-                    className="bg-background/50"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2">Телефон *</label>
-                  <Input
-                    required
-                    type="tel"
-                    value={formData.phone}
-                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    placeholder="+7 (___) ___-__-__"
-                    className="bg-background/50"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2">Сообщение</label>
-                  <Textarea
-                    value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    placeholder="Расскажите о вашем проекте..."
-                    rows={4}
-                    className="bg-background/50"
-                  />
-                </div>
-                <Button type="submit" size="lg" className="w-full bg-primary hover:bg-primary/90">
-                  <Icon name="Send" className="mr-2" size={20} />
-                  Отправить заявку
-                </Button>
-              </form>
-            </Card>
-
-            <div className="mt-12 grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-3 gap-6">
               <Card className="p-6 text-center bg-card/50 border-white/20">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto mb-3">
                   <Icon name="Mail" className="text-white" size={24} />
