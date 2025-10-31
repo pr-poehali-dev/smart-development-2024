@@ -108,9 +108,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6 bg-gradient-to-r from-primary via-blue-500 to-accent bg-clip-text text-transparent">
-              Строительство под ключ
-            </h1>
+            <h1 className="text-5xl md:text-7xl font-heading mb-6 bg-gradient-to-r from-primary via-blue-500 to-accent bg-clip-text text-transparent font-semibold">От замысла до воплощения — профессионально</h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
               Профессиональный девелопмент и строительство коммерческой недвижимости с 1997 года
             </p>
