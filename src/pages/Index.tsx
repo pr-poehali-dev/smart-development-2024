@@ -371,12 +371,9 @@ const Index = () => {
       <section id="contact" className="py-20 bg-card/30">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold text-center mb-4 animate-fade-in">
-              Свяжитесь с нами
+            <h2 className="text-4xl md:text-5xl font-heading font-bold text-center mb-12 animate-fade-in">
+              Контакты
             </h2>
-            <p className="text-center text-muted-foreground mb-12">
-              Оставьте заявку, и мы свяжемся с вами в ближайшее время
-            </p>
             
             <Card className="p-8 bg-card/50 backdrop-blur-sm border-white/20">
               <form onSubmit={handleSubmit} className="space-y-6">
